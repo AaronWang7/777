@@ -1,3 +1,4 @@
+
 player1 =  int(input("What's 1 + 1?"))
 player2 =  int(input("What's 2 + 1?"))
 player3 =  int(input("What's 8 + 1?"))
@@ -5,28 +6,34 @@ player4 =  int(input("What's 1 + 99?"))
 player5 =  int(input("What's 1 + 11?"))
 
 if player1 == 2:
-    print (player1)
+     player1 = 1
 else :
-    print (0)
+    player1 = 0
 
 if player2 == 3:
-    print (player2)
+   player2 = 1
 else :
-    print (0)
+     player2 = 0
+
 
 if player3 == 9:
-    print (player3)
+      player3 = 1
 else :
-    print (0)
+     player3 = 0
 
 if player4 == 100:
-    print (player4)
+      player4 = 1
 else :
-    print (0)
+     player4 = 0
 
 if player5 == 12:
-    print (player5)
+      player5 = 1
 else :
-    print (0)
+     player5 = 0
 
-print("if you got 100% your score should be 126")
+if player1+player2+player3+player4+player5 == 5:
+
+    print("You got 100%!!!, your score is:",player1+player2+player3+player4+player5)
+else:
+     print("Keep trying!!!, you got:",player1+player2+player3+player4+player5)
+print("The highest score you can get is 5!")
