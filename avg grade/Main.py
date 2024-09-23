@@ -1,0 +1,10 @@
+class1 = int(input(("enter grade:")))
+class2 = int(input(("enter grade:")))
+class3 = int(input(("enter grade:")))
+class4 = int(input(("enter grade:")))
+class5 = int(input(("enter grade:")))
+class6 = int(input(("enter grade:")))
+class7 = int(input(("enter grade:")))
+class8 = int(input(("enter grade:")))
+
+print(((class1+class2+class3+class4+class5+class6+class7+class8)/8))
