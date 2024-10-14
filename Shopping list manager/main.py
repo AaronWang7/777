@@ -1,7 +1,6 @@
 
-#shopping_list = input ("enter your shopping list:")
-###shopping_list = [shopping_list]
-###print(shopping_list)
+
+
 while True:
     action = input("""What would you like to do?
 
@@ -10,14 +9,13 @@ while True:
                                   Enter 2 to remove item
 
                                   Enter 3 to leave the list:\n""")
-
     if action =="1":
 
-        add(action)
-
+        input(":")
+        
     elif action =="2":
 
-        remove(action)
+        print(action)
 
     else:
 

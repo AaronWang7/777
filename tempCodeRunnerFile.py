@@ -1,1 +1,2 @@
-name =input(["enter your name"])
+something = ["apple","cat","dog"]
+print ((3)(something))
