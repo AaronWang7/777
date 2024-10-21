@@ -1,0 +1,2 @@
+Class = ["Pe","Computer science","English","Advisory","Geography","Biology","Math" ]
+print("This is my first priod, and it's",Class[0],"This is my 2nd priod, and it's",Class[1],"This is my 3rd priod, and it's",Class[2],"This is my 4th priod, and it's",Class[3],"This is my 5th priod, and it's",Class[4],"This is my 6th priod, and it's",Class[5],"This is my 7th priod, and it's",Class[6])
