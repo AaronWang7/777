@@ -1,0 +1,63 @@
+def afunction():
+    something = input("Enter a word: ").lower()  
+    something2 = []  
+    
+    for i in something:
+        if i == "a":
+            something2.append("0")
+        elif i == "b":
+            something2.append("1")
+        elif i == "c":
+            something2.append("2")
+        elif i == "d":
+            something2.append("3")
+        elif i == "e":
+            something2.append("4")
+        elif i == "f":
+            something2.append("5")
+        elif i == "g":
+            something2.append("6")
+        elif i == "h":
+            something2.append("7")
+        elif i == "i":
+            something2.append("8")
+        elif i == "j":
+            something2.append("9")
+        elif i == "k":
+            something2.append("10")
+        elif i == "l":
+            something2.append("11")
+        elif i == "m":
+            something2.append("12")
+        elif i == "n":
+            something2.append("13")
+        elif i == "o":
+            something2.append("14")
+        elif i == "p":
+            something2.append("15")
+        elif i == "q":
+            something2.append("16")
+        elif i == "r":
+            something2.append("17")
+        elif i == "s":
+            something2.append("18")
+        elif i == "t":
+            something2.append("19")
+        elif i == "u":
+            something2.append("20")
+        elif i == "v":
+            something2.append("21")
+        elif i == "w":
+            something2.append("22")
+        elif i == "x":
+            something2.append("23")
+        elif i == "y":
+            something2.append("24")
+        elif i == "z":
+            something2.append("25")
+        else:
+            something2.append(i) 
+
+    print("Encoded message:", " ".join(something2))
+
+afunction()
