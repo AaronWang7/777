@@ -1,0 +1,20 @@
+while True:
+ grade = float(input("Enter your grade:"))
+ if grade < 59.99 or grade == 59.99:
+    print(f"Your grade is a 'F'{grade}%")
+ elif grade < 66.99 or grade == 66.99:
+    print(f"Your grade is a 'D'{grade}%")
+ elif grade < 69.99 or grade == 69.99:
+    print(f"Your grade is a 'D+'{grade}%")
+ elif grade < 76.99 or grade == 76.99:
+    print(f"Your grade is a 'C'{grade}%")
+ elif grade < 79.99 or grade == 79.99:
+    print(f"Your grade is a 'C+'{grade}%")
+ elif grade < 86.99 or grade == 86.99:
+    print(f"Your grade is a 'B'{grade}%")
+ elif grade < 89.99 or grade == 89.99:
+    print(f"Your grade is a 'B+'{grade}%")
+ elif grade < 96.99 or grade == 96.99:
+    print(f"Your grade is a 'A'{grade}%")
+ elif grade < 100 or grade == 100:
+    print(f"Your grade is a 'A+'{grade}%")
