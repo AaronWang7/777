@@ -3,6 +3,9 @@ aiscore = []
 while True:
        import random
        player = input("Enter one of the numbers, 1 = rock, 2 = paper, 3 = scissors:")
+       if player != 1 or player != 2 or player != 3:
+              print("Enter 1,2, or 3!")
+              break
        ai = (random.randrange(0,60))
        if ai <= 20:
               aii = ("rock")
