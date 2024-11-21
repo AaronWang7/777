@@ -17,6 +17,42 @@ while True:
     else: 
         print(f"sorry,{quiz},""is not the right answer")
         print(SCORE)
+    quiz = input (f"OK, question 1, what is:{quiz1}*{quiz2}? A.{wque}, B.{ringhtquestion},C.{qeew},D.{qisj}:")
+    if quiz == "B":
+          print(f"You are so smart!, The answer was {quiz}!")
+          SCORE.append("I")
+          print(SCORE)
+    else: 
+        print(f"sorry,{quiz},""is not the right answer")
+        print(SCORE)
+    quiz = input (f"OK, question 1, what is:{quiz1}*{quiz2}? A.{wque}, B.{qeew},C.{ringhtquestion},D.{qisj}:")
+    if quiz == "C":
+          print(f"You are so smart!, The answer was {quiz}!")
+          SCORE.append("I")
+          print(SCORE)
+    else: 
+        print(f"sorry,{quiz},""is not the right answer")
+        print(SCORE)
+    quiz = input (f"OK, question 1, what is:{quiz1}*{quiz2}? A.{wque}, B.{ringhtquestion},C.{qeew},D.{qisj}:")
+    if quiz == "B":
+          print(f"You are so smart!, The answer was {quiz}!")
+          SCORE.append("I")
+          print(SCORE)
+    else: 
+        print(f"sorry,{quiz},""is not the right answer")
+        print(SCORE)
+    quiz = input (f"OK, question 1, what is:{quiz1}*{quiz2}? A.{wque}, B.{qisj},C.{qeew},D.{ringhtquestion}:")
+    if quiz == "D":
+          print(f"You are so smart!, The answer was {quiz}!")
+          SCORE.append("I")
+          print(SCORE)
+    else: 
+        print(f"sorry,{quiz},""is not the right answer")
+        print(SCORE)
+    
+    
+    
+
 
  elif Quizstart == "N":
     print("Ok bye")
