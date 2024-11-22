@@ -4,4 +4,5 @@ while True:
         for i in range(0,21,1):
             print (i)
     else:
-        i = 0
+        for i in range(20,0,-1):
+            print(i)
