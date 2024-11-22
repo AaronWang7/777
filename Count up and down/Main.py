@@ -1,9 +1,7 @@
+i = 0
 while True:
-    hi = 0
-    if hi <= 20:
-        for hi in 20:
-            print(hi)
-        
+    if i <= 20:
+        for i in range(0,21,1):
+            print (i)
     else:
-        hi = 0
-        print(hi)
+        i = 0
