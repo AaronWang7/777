@@ -1,28 +1,25 @@
-num = (input ("Enter your first number:"))
-num2 = (input("Enter your 2nd number:"))
-op = (input("What whould you like to do with it?, 1 = add, 2 = subtract, 3 = multiplication, 4 = multiplication:"))
+try:
+    num1 = float(input("Enter the first number: "))
+    num2 = float(input("Enter the second number: "))
+    operation = input("Enter the operation (+, -, *, /): ")
 
-if op == "1":
-    try:
-        number = int(num + num2)
-        print(number)
-    except:
-        print("Wrong input")
-elif op == "2":
-    try:
-        number = int(num - num2)
-        print(number)
-    except:
-        print("Wrong input")
-elif op == "3":
-    try:
-        number = int(num * num2)
-        print(number)
-    except:
-        print("Wrong input")
-elif op == "4":
-    try:
-        number = int(num / num2)
-        print(number)
-    except:
-        print("Wrong input")
+    if operation == "+":
+        result = num1 + num2
+        print(f"The result of {num1} + {num2} is: {result}")
+    elif operation == "-":
+        result = num1 - num2
+        print(f"The result of {num1} - {num2} is: {result}")
+    elif operation == "*":
+        result = num1 * num2
+        print(f"The result of {num1} * {num2} is: {result}")
+    elif operation == "/":
+     
+        if num2 == 0:
+            print("Error: Division by zero is not allowed.")
+        else:
+            result = num1 / num2
+            print(f"The result of {num1} / {num2} is: {result}")
+    else:
+        print("Error: Invalid operation. Please choose from +, -, *, /.")
+except ValueError:
+    print("Error: Invalid input. Please enter numeric values.")
