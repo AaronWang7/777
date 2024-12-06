@@ -1,17 +1,20 @@
-listtop1 = ["Top1"]
-listmid1 = ["Mid1"]
-listdown1 = ["Down1"]
-listtop2 = ["Top2"]
-listmid2 = ["Mid2"]
-listdown2 = ["Down2"]
-listtop3 = ["Top3"]
-listmid3 = ["Mid3"]
-listdown3 = ["Down3"]
+
+listtop1 = [" "]
+listmid1 = [" "]
+listdown1 = [" "]
+listtop2 = [" "]
+listmid2 = [" "]
+listdown2 = [" "]
+listtop3 = [" "]
+listmid3 = [" "]
+listdown3 = [" "]
 import random
         
 print("Hi, welcome to the tic tac toe game!")
 while True:
-    r = input("enter what rows you want to plce it 1-3, 1 is top:")
+    for i in range (1,4,1):
+       print("You can enter",i)
+    r = input(f"enter what rows you want to plce it 1-3, 1 is top:")
     c = input("enter where you want to plce it: 1 very left, 3 very right, 1-3:")
     if r == "1" and c == "1" and "X" not in listtop1 and "O" not in listtop1:
         listtop1.append("X")
@@ -1678,5 +1681,3 @@ while True:
                 print("You win!")
         elif "X" in listtop3 and "X" in listmid2 and "X" in listdown1:
                 print("You win!")    
-                
-    
