@@ -1,0 +1,2 @@
+
+userinput = input("Enter something:")
