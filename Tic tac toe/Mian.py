@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Dec  6 23:51:46 2024
+
+@author: huzi
+"""
+
 
 listtop1 = [" "]
 listmid1 = [" "]
@@ -17,40 +24,40 @@ while True:
     r = input(f"enter what rows you want to plce it 1-3, 1 is top:")
     c = input("enter where you want to plce it: 1 very left, 3 very right, 1-3:")
     if r == "1" and c == "1" and "X" not in listtop1 and "O" not in listtop1:
-        listtop1.append("X")
+        listtop1 = ("X")
         ia = (random.randrange(0,90))
         if ia < 10 or ia == 10 and "X" not in listtop1 and "O" not in listtop1:
-            listtop1.append("O")
+            listtop1 = ("O")
         elif "X" and "O" not in listtop2:
-               listtop1.append("O")
+               listtop1 = ("O")
         elif "X" and "O" not in listtop3:
-               listtop3.append("O")
+               listtop3 = ("O")
         elif "X" and "O" not in listmid1:
-               listmid1.append("O")
+               listmid1 = ("O")
         elif "X" and "O" not in listmid2:
-               listmid2.append("O")
+               listmid2 = ("O")
         elif "X" and "O" not in listmid3:
-               listmid3.append("O")
+               listmid3 = ("O")
         elif "X" and "O" not in listdown1:
-               listdown1.append("O")
+               listdown1 = ("O")
         elif "X" and "O" not in listdown2:
-               listdown2.append("O")
+               listdown2 = ("O")
         elif "X" and "O" not in listdown3:
-               listdown3.append("O")
+               listdown = ("O")
         elif ia < 20 or ia == 20 and "X" not in listtop2 and "O" not in listtop2 :
-            listtop2.append("O")
+            listtop2 = ("O")
         elif "X" and "O" not in listtop2:
-               listtop1.append("O")
+               listtop1= ("O")
         elif "X" and "O" not in listtop3:
-               listtop3.append("O")
+               listtop3= ("O")
         elif "X" and "O" not in listmid1:
-               listmid1.append("O")
+               listmid1 = ("O")
         elif "X" and "O" not in listmid2:
-               listmid2.append("O")
+               listmid2= ("O")
         elif "X" and "O" not in listmid3:
-               listmid3.append("O")
+               listmid3= ("O")
         elif "X" and "O" not in listdown1:
-               listdown1.append("O")
+               listdown1= ("O")
         elif "X" and "O" not in listdown2:
                listdown2.append("O")
         elif "X" and "O" not in listdown3:
